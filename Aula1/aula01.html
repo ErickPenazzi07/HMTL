@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 01 | HTML</title>
+    <style editable>
+        body {
+            background: #00000098;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 5px 12px #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>AULA 01 HTML</h1>
+    <h3>INSERA SEU NOME!!</h3>
+
+<button onclick="alerta()"
+    style => NOME
+</button>   
+    <h2> Trocas de Cores</h2>
+
+
+    <button onclick = "verde()"
+    style=> VERDE
+
+    <button onclick = "azul()"
+    style=> AZUL
+
+    <button onclick = "vermelho()"
+    style=> VERMELHO
+
+</body> 
+
+<script>
+    console.log("Olá mundo")
+
+function alerta(){
+    var nome = prompt ("Olá, informe seu nome")
+    alert (`Olá ${nome}!!`)
+    
+}
+
+function verde(){
+    var botao = document.querySelector("body")
+    botao.style.background = "#00ff00"
+}
+function vermelho(){
+    var botao2 = document.querySelector("body")
+    botao2.style.background = "#ff0000"
+      
+}
+function azul(){
+    var botao3 = document.querySelector("body")
+    botao3.style.background = "#0000ff"
+      
+}
+    
+  
+  
+    </script>
+
+</html>
