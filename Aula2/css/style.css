@@ -1,0 +1,43 @@
+
+body {
+  background: url(../img/fundo.jpg) 
+    no-repeat
+    top/cover
+    ; /
+  background: #031c30;
+  color: #5a3546;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+    font-family: "Madimi One", 
+    sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+
+}
+a {
+  text-decoration: none;
+  color: #f10d3f;
+}
+.textoCentro {
+  text-align: center;
+}
+
+h1.textoCentro {
+  margin-top: 0;
+  padding: 10px;
+}
+
+
+h1 a {
+    background: rgb(87, 7, 7);
+    padding: 5px;
+    border-radius: 10px 10px;
+}
+
+/* / passar o mouse por cima(hover) */ */
+h1 a:hover {
+    background: #529c63;
+}
